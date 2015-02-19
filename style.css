@@ -1,0 +1,83 @@
+body {
+  background-image: url("http://i.imgur.com/PpV2l1p.png");
+  background-position: center;
+}
+.topbar {
+  height: 60px;
+  background: #26292e;
+  width: 100%;
+}
+img.logo {
+  padding: 10px;
+  height: auto;
+  width: 70px;
+}
+h1 {
+  color: white !important;
+  font-family: 'Lato', sans-serif !important;
+  font-weight: 300;
+  bottom: 90;
+  position: absolute;
+  padding: 10px;
+  background: #131517;
+  width: 50%;
+  margin: 0 !important;
+  font-size: 25px !important;
+}
+p {
+  color: #6c6e74;
+  background: #131517;
+  width: 50%;
+  height: 80px;
+  margin-top: 10px;
+  padding: 10px;
+}
+button {
+  float: right;
+  background: #6174af !important;
+  margin-top: 5px !important;
+  font-family: 'Lato', sans-serif !important;
+  font-size: 14px;
+  font-weight: 300 !important;
+  width: 100px;
+}
+.help {
+  position: absolute;
+  bottom: -10;
+  width: 100%;
+}
+.modal-content {
+  background-color: #333333 !important;
+}
+.modal-header {
+  border: none !important;
+  padding-bottom: 0px !important;
+}
+.modal-logo {
+  width: 100px;
+  height: auto;
+  margin: 0 auto;
+  display: inherit;
+}
+.modal-title {
+  color: #8b8a8a;
+  font-family: 'Lato', sans-serif !important;
+  text-transform: uppercase;
+  text-align: center;
+  margin: none !important; 
+  width: 100% !important;
+  background: transparent;
+  border-bottom: 1px solid white;
+  height: auto;
+}
+.modal-footer {
+  border: none !important;
+  text-align: center !important;
+  background: black;
+}
+.row {
+  padding: 10px;
+}
+button.btn.btn-primary.btn-lg {
+  float: none !important;
+}
